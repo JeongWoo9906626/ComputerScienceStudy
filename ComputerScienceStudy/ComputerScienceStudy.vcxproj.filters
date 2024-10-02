@@ -7,18 +7,37 @@
     <Filter Include="DesignPattern\Singleton">
       <UniqueIdentifier>{fb1302df-e491-46ec-b63e-5ac97a07851b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DesignPattern\Facatory">
+      <UniqueIdentifier>{4bd2bd82-29a7-4133-bc53-ec21d75caf54}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Singleton.cpp">
       <Filter>DesignPattern\Singleton</Filter>
     </ClCompile>
-    <ClCompile Include="DI.cpp" />
+    <ClCompile Include="DI.cpp">
+      <Filter>DesignPattern\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>DesignPattern\Facatory</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>DesignPattern\Facatory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Singleton.h">
       <Filter>DesignPattern\Singleton</Filter>
     </ClInclude>
-    <ClInclude Include="DI.h" />
+    <ClInclude Include="DI.h">
+      <Filter>DesignPattern\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>DesignPattern\Facatory</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>DesignPattern\Facatory</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

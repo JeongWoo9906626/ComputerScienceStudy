@@ -128,12 +128,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DI.cpp" />
+    <ClCompile Include="Factory.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Singleton.cpp" />
+    <ClCompile Include="Player.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DI.h" />
+    <ClInclude Include="Factory.h" />
     <ClInclude Include="Singleton.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
