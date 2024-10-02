@@ -13,10 +13,12 @@
     <ClCompile Include="Singleton.cpp">
       <Filter>DesignPattern\Singleton</Filter>
     </ClCompile>
+    <ClCompile Include="DI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Singleton.h">
       <Filter>DesignPattern\Singleton</Filter>
     </ClInclude>
+    <ClInclude Include="DI.h" />
   </ItemGroup>
 </Project>

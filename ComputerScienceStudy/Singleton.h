@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 class Singleton
 {
 public:
@@ -7,6 +8,7 @@ public:
 		static Singleton Instnace = Singleton();
 		return Instnace;
 	}
+	void Test(std::string& Sentence);
 
 private:
 	Singleton();
