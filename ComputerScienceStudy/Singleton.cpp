@@ -1,7 +1,7 @@
 #include "Singleton.h"
 #include <iostream>
 
-void Singleton::Test(std::string& Sentence)
+void Singleton::Test(const std::string& Sentence)
 {
 	std::cout << Sentence;
 }
