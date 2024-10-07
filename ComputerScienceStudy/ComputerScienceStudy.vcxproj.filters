@@ -10,6 +10,15 @@
     <Filter Include="DesignPattern\Facatory">
       <UniqueIdentifier>{4bd2bd82-29a7-4133-bc53-ec21d75caf54}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DesignPattern\Strategy">
+      <UniqueIdentifier>{7f6e3629-c91c-4c9f-b728-6690af9f3de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Observer">
+      <UniqueIdentifier>{6b2f3912-cddc-48aa-930f-9d3603a26739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Proxy">
+      <UniqueIdentifier>{0559522d-896b-4ac4-ad42-f0df7c0b0db1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -25,6 +34,18 @@
     <ClCompile Include="Player.cpp">
       <Filter>DesignPattern\Facatory</Filter>
     </ClCompile>
+    <ClCompile Include="Strategy.cpp">
+      <Filter>DesignPattern\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>DesignPattern\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="TestObserver.cpp">
+      <Filter>DesignPattern\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Proxy.cpp">
+      <Filter>DesignPattern\Proxy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Singleton.h">
@@ -38,6 +59,18 @@
     </ClInclude>
     <ClInclude Include="Player.h">
       <Filter>DesignPattern\Facatory</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy.h">
+      <Filter>DesignPattern\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>DesignPattern\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="TestObserver.h">
+      <Filter>DesignPattern\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Proxy.h">
+      <Filter>DesignPattern\Proxy</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,40 +1,41 @@
 #pragma once
-#include "Factory.h"
+#include <iostream>
 #include <string>
 
 /// <summary>
 /// 추상 클래스 및 상속
 /// </summary>
 
-class Player
+class Player 
 {
 public:
-	virtual void Test() = 0;
+    virtual void Test() = 0;
 };
 
-class Tanker : public Player
+class Tanker : public Player 
 {
 public:
-	void Test() override
-	{
-		std::string TankerPlayer = "This is Rectangle";
-	}
+    void Test() override 
+    {
+        std::cout << "This is Tanker" << std::endl;
+    }
 };
 
-class Healer : public Player
+class Healer : public Player 
 {
 public:
-	void Test() override
-	{
-		std::string HealerPlayer = "This is Healer";
-	}
+    void Test() override 
+    {
+        std::cout << "This is Healer" << std::endl;
+    }
 };
 
-class Archer : public Player
+class Archer : public Player 
 {
 public:
-	void Test() override
-	{
-		std::string ArcherPlayer = "This is Archer";
-	}
+    void Test() override 
+    {
+        std::cout << "This is Archer" << std::endl;
+    }
 };
+

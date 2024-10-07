@@ -1,5 +1,6 @@
 #pragma once
 #include <memory>
+#include <string_view>
 #include "Player.h"
 
 /// <summary>
@@ -14,21 +15,20 @@
 class Factory
 {
 public:
-	std::unique_ptr<Player> CreateShape(const std::string& PlayerType)
+	std::unique_ptr<Player> CreateShape(std::string_view PlayerType)
 	{
-		if (true == PlayerType._Equal("Tanker"))
+		if (PlayerType == "Tanker")
 		{
-			return std::make_unique<Tanker>();;
+			return std::make_unique<Tanker>();
 		}
-		if (true == PlayerType._Equal("Healer"))
+		else if (PlayerType == "Healer")
 		{
-			return std::make_unique<Healer>();;
+			return std::make_unique<Healer>();
 		}
-		if (true == PlayerType._Equal("Archer"))
+		else
 		{
-			return std::make_unique<Archer>();;
+			return std::make_unique<Archer>();
 		}
-		return nullptr;
 	}
 };
 
